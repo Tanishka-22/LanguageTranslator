@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.container {
+    background-color:azure;
+    border-radius: 35px;
+    padding: 30px;
+}
+.holder{
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+.holder .textinputarea{
+    display: flex;
+    border-bottom: 1px solid #bbb;
+} 
+.textinputarea #translate-to{
+    border-left: 1px dashed #bbb;
+}
+.textinputarea textarea{
+    border: none;
+    height: 200px;
+    width: 100%;
+    outline: none;
+    resize: none;
+    font-size:16px; 
+    border-radius: 5px; 
+    background: #dfffeb;
+    padding: 10px 15px;
+}
+.controls, li, .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+.controls .rowfrom .icons{
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
+}
+.controls .rowto .icons{
+    padding-left: 15px;
+    border-left: 1px solid #bbb;
+}
+.controls .icons i{
+    width: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(61, 60, 60);
+    justify-content: center;
+}
+.controls .icons{
+    width: 38%;
+}
+.controls .row{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+}
+.controls .exchange{
+    color: #bbb;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(13, 37, 37);
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

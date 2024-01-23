@@ -1,4 +1,4 @@
-const countries{
+const countries = {
     "am-ET": "Amharic",
     "ar-SA": "Arabic",
     "be-BY": "Bielarus",
@@ -95,5 +95,5 @@ const countries{
     "wo-SN": "Wolof",
     "xh-ZA": "Xhosa",
     "yi-YD": "Yiddish",
-    "zu-ZA": "Zulu" 
+    "zu-ZA": "Zulu"
 }

@@ -19,7 +19,7 @@ body{
     display: flex;
     border-bottom: 1px solid #bbb;
 } 
-.textinputarea #translate-to{
+.textinputarea .to-text{
     border-left: 1px dashed #bbb;
 }
 .textinputarea textarea{
@@ -36,7 +36,7 @@ body{
 .controls, li, .icons, .icons i{
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-around; 
 }
 .controls{
     list-style: none;

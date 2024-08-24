@@ -1,60 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
     <title>Language Translator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    </head>
-    <style>
-
-    </style>
-    <body>
-        <div class="container">
-            <div class="holder">
-                <div class="textinputarea">
-                    <textarea id="from-text" class="from-text" placeholder="Enter text"></textarea>
-                    <textarea id="to-text" class="to-text" placeholder="Translation" readonly disabled></textarea>
-                </div>
-                <ul class="controls">
-                <li class="row">
-                    <div class="icons">
-                        <i id="from" class="fa-solid fa-volume-high"></i>
-                        <i id="from" class="fa-regular fa-copy"></i>
-                    </div>
-                </li>
-                <li class="rowfrom">
-                    <select>
-                        <option value="en-US">English</option>
-                        <option value="hi-IN">Hindi</option>
-                        <option value="ne-NP">Nepal</option>
-                    </select>
-                </li>
-                <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
-                <li class="rowto">
-                    <select>
-                        <option value="en-US">English</option>
-                        <option value="hi-IN">Hindi</option>
-                        <option value="ne-NP">Nepal</option>
-                    </select>
-                </li>
-                <li class="row">
-                    <div class="icons">
-                        <i id="to" class="fa-solid fa-volume-high"></i>
-                        <i id="to" class="fa-regular fa-copy"></i>
-                    </div>
-                </li>
-                </ul>
-            </div>
-            <button class="convert">Translate</button>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div>
+      <div><h1>Language Translator</h1></div>
+      <div class="container">
+        <div class="wrapper">
+          <div class="text-input">
+            <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+            <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+          </div>
+          <ul class="controls">
+            <li class="row from">
+              <div class="icons">
+                <i id="from" class="fas fa-volume-up"></i>
+                <i id="from" class="fas fa-copy"></i>
+              </div>
+              <select></select>
+            </li>
+            <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+            <li class="row to">
+              <select></select>
+              <div class="icons">
+                <i id="to" class="fas fa-volume-up"></i>
+                <i id="to" class="fas fa-copy"></i>
+              </div>
+            </li>
+          </ul>
         </div>
-    </body>
-    <script src="https://kit.fontawesome.com/95b0edf7a4.js" crossorigin="anonymous"></script>
-    <script src="js/countries.js"></script>
-    <script src="js/script.js"></script>
-    </html>
+        <button>Translate Text</button>
+      </div>
+    </div>
 
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>

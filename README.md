@@ -1,2 +1,2 @@
 The website link:-
-    https://landconvertertranslator.netlify.app/
+   https://lang-converter-translator.netlify.app
